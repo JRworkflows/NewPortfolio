@@ -1,0 +1,29 @@
+html {
+    background: linear-gradient(to top, #D27D79, #40B8BF);
+}
+
+html:hover {
+    background: linear-gradient(#C1D279, #BF4040)
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-gap: 1em;
+    grid-auto-rows: minmax(50px, auto);
+    padding: .5em;
+    text-align: center;
+    line-height: 24px;
+    font-size: 16px;
+    font-family: 'Reem Kufi', sans-serif;
+}
+
+.wrapper>div {
+    background-color: #594F4F;
+    /* background: linear-gradient(to top, #D27D79, #40B8BF); */
+    padding: 1em
+}
+
+.wrapper>div:nth-child(odd) {
+    background-color: #C6C6C6
+}
