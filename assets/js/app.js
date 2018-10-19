@@ -3,26 +3,26 @@
 
 // })
 
-$("#wrpOne").hover(function() {
-    $(this)
-        // .toggleClass("active")
-        .next()
-        .stop(true, true)
-        .slideToggle()
-});
+// $("#wrpOne").hover(function() {
+//     $(this)
+//         // .toggleClass("active")
+//         .next()
+//         .stop(true, true)
+//         .slideToggle()
+// });
 
-$("#wrpTwo").hover(function() {
-    $(this)
-        // .toggleClass("active")
-        .next()
-        .stop(true, true)
-        .slideToggle();
-});
+// $("#wrpTwo").hover(function() {
+//     $(this)
+//         // .toggleClass("active")
+//         .next()
+//         .stop(true, true)
+//         .slideToggle();
+// });
 
-$("#wrpThree").hover(function() {
-    $(this)
-        // .toggleClass("active")
-        .next()
-        .stop(true, true)
-        .slideToggle();
-});
+// $("#wrpThree").hover(function() {
+//     $(this)
+//         // .toggleClass("active")
+//         .next()
+//         .stop(true, true)
+//         .slideToggle();
+// });

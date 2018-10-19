@@ -1,21 +1,25 @@
 html {
-    background: linear-gradient(to top, #D27D79, #40B8BF);
+    background: rgb(169,3,41); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(169,3,41,1) 0%, rgba(143,2,34,1) 44%, rgba(109,0,25,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(169,3,41,1) 0%,rgba(143,2,34,1) 44%,rgba(109,0,25,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(169,3,41,1) 0%,rgba(143,2,34,1) 44%,rgba(109,0,25,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=0 ); /* IE6-9 */
 }
 
-html:hover {
+/* html:hover {
     background: linear-gradient(#C1D279, #BF4040)
-}
+} */
 
 .wrapper {
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: auto auto auto;
     grid-gap: 1em;
     grid-auto-rows: minmax(50px, auto);
     padding: .5em;
     text-align: center;
     line-height: 24px;
     font-size: 16px;
-    font-family: 'Reem Kufi', sans-serif;
+    font-family: 'Kirang Haerang', cursive;
 }
 
 .wrapper>div {
@@ -26,4 +30,11 @@ html:hover {
 
 .wrapper>div:nth-child(odd) {
     background-color: #C6C6C6
+}
+
+#wrpOne>div:nth-of-type(2) {
+    order: 1
+}
+#wrpOne>div:nth-of-type(3) {
+    order: 3
 }
